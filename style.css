@@ -1,0 +1,61 @@
+html, body, div, span, applet, object, iframe,
+/*h1, h2, h3, h4, h5, h6,*/ p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, /*ul, li,*/
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, /*tr, th, td*/ {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+}
+body {
+line-height: 1;
+}
+div {
+display: block;
+}
+/* remember to define focus styles! */
+:focus {
+outline: 0;
+}
+::selection{
+background:#E58994;
+}
+h1{ font-size:36px; color:#E7001D;}
+h2{ font-size:24px; color:#726250;}
+h3{ font-size:18px; color:#85916D;}
+h4{ font-size:16px; }
+h5{ font-size:14px; }
+h6{ font-size:12px; }
+h1:after{ content:"."; color:#FFDF00; font-family:Helvatica, Arial, sans-serif; }
+a:link,a:visited{ text-decoration:none; color:#5B7E91; border-bottom:1px #999 dashed;/*ÐéÏß*/ }
+a:hover,a:active{ color:#C20024; border-bottom:1px #333 solid; }
+
+body{
+background:#fefefe;  color:#AAA;/*ÎÄ×ÖÑÕÉ«#AAA*/
+}
+#container{
+width:860px; margin:20px auto 30px;
+}
+#content{
+width:860px; min-height:200px; margin:0 auto;
+}
+#about{
+width:200px; float:left; margin:0 auto;
+}
+#main{
+width:640px; margin-left:15px; float:right;
+}
+.clear{
+clear:both;
+}
+.footer{
+margin:20px 0 10px 0;
+text-align:right;
+}
