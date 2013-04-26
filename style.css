@@ -5,14 +5,14 @@ del, dfn, em, font, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center, dl, dt, dd, ol, /*ul, li,*/
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, /*tr, th, td*/ {
+table, caption, tbody, tfoot, thead /*,tr, th, td*/ {
 margin: 0;
 padding: 0;
 border: 0;
 outline: 0;
 font-size: 100%;
 vertical-align: baseline;
-background: transparent;
+/*background: transparent;*/
 }
 body {
 line-height: 1;
@@ -25,7 +25,7 @@ display: block;
 outline: 0;
 }
 ::selection{
-background:#E58994;
+background-color:#E58994;
 }
 h1{ font-size:36px; color:#E7001D;}
 h2{ font-size:24px; color:#726250;}
@@ -34,14 +34,19 @@ h4{ font-size:16px; }
 h5{ font-size:14px; }
 h6{ font-size:12px; }
 h1:after{ content:"."; color:#FFDF00; font-family:Helvatica, Arial, sans-serif; }
-a:link,a:visited{ text-decoration:none; color:#5B7E91; border-bottom:1px #999 dashed;/*ÐéÏß*/ }
+a:link,a:visited{ text-decoration:none; color:#5B7E91; border-bottom:1px #999 dashed;/*è™šçº¿*/ }
 a:hover,a:active{ color:#C20024; border-bottom:1px #333 solid; }
 
 body{
-background:#fefefe;  color:#AAA;/*ÎÄ×ÖÑÕÉ«#AAA*/
+/*background:#fefefe;*/  color:#AAA;/*æ–‡å­—é¢œè‰²#AAA*/
+}
+.top{
+background-color:rgb(1,158,213); height:3px;
 }
 #container{
-width:860px; margin:20px auto 30px;
+width:860px; margin:20px auto 20px;
+}
+.title{
 }
 #content{
 width:860px; min-height:200px; margin:0 auto;
